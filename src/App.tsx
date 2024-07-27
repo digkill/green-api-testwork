@@ -1,9 +1,9 @@
 import './App.css'
 import React, {useState} from 'react';
 
-// Определение интерфейса для данных ответа
+
 interface ResponseData {
-    // Замените этот интерфейс на соответствующую структуру данных вашего API
+
     [key: string]: string;
 }
 
@@ -19,7 +19,7 @@ const App: React.FC = () => {
     //  useEffect(() => {
     //  const url = "";
 
-    // Определите обработчик события
+
     const getSettingsHandle = (/*event: React.MouseEvent<HTMLButtonElement, MouseEvent>*/): void => {
         console.log('getSettingsHandle')
         fetchData()
